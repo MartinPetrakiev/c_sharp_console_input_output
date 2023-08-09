@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 
 namespace MyProject
 {
@@ -14,10 +13,9 @@ namespace MyProject
         string managerLastName = "";
         int managerAge = 0;
         string managerPhoneNumber = "";
+        
         static void Main(string[] args)
-        {
-            string unicodeString = "This string contains the unicode character Pi (\u03a0)";
-            
+        {           
             Program company = new Program();
             company.companyName = Console.ReadLine();
             company.companyAddress = Console.ReadLine();
